@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+
+  <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+  <link rel="stylesheet" href="Contact.css">
+  <link rel="shortcut icon" href="Images/favi.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.typekit.net/gjj2jmi.css">
+
+  <link rel="stylesheet" href="https://use.typekit.net/eky1geh.css">
+</head>
+
+<body>
+  <!--NAVIGTION BAR-->
+  <div id="header">
+
+    <div class="navContainer">
+
+      <nav class="navbar">
+
+        <a href="Intro.html"><img src="Images/logo.png" alt="moeez"></a>
+
+        <ul>
+
+          <li><a href="Intro.html"><span>01. </span>Intro</a></li>
+
+          <li><a href="Certification.html"><span>02. </span>Certification</a></li>
+
+          <li><a href="Contact.html"><span>03. </span>Contact us</a></li>
+
+          <li><a href="T&C.html"><span>04. </span>Terms & Conditions</a></li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+  </div>
+  <!--CONTACT FORM-->
+  <div class="container">
+    <div><p style="font-family: rubik; font-size: 20px; padding-bottom: 15px;">
+      Office location: <br>
+      Brian Statham Way, Old Trafford, Stretford, <br>Manchester M16 0PU
+    </p></div>
+      <div class="map" style="display: inline-block;">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3634.2397686844515!2d-2.283110460263954!3d53.460565547050884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bafd0a3fc5c33%3A0x3f7512777459a239!2sUniversity%20Academy%2092%20(UA92)!5e0!3m2!1sen!2suk!4v1697444376859!5m2!1sen!2suk"
+
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
+  
+    <form id="contact-form" class="mform" style="display: inline-block;">
+      <div class="form">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+
+      <div class="form">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+      <div class="form">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="xyz@gmail.com">
+      </div>
+
+      <div class="form">
+        <label for="Inq">Inquire about</label>
+        <select id="Inq" name="Inq">
+          <option value="x web">Website</option>
+          <option value="x game">Game</option>
+          <option value="x app">App</option>
+        </select>
+      </div>
+      <div class="form">
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+      <input type="submit" value="Submit" class="button sub">
+    </form>
+    <div id="confirmation"></div>
+  </div>
+
+  <!--Footer-->
+  <div class="footer" style="margin-top: 10px;">
+    <p>CopyRight moeez. Full Stack Developer @ 2023</p>
+  </div>
+
+  <script src="Contact.js"></script>
+
+
+</body>
+
+</html>
